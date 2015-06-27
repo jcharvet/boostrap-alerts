@@ -1,7 +1,8 @@
 # boostrap-alerts
 A simple Meteor JS boostrap alerts
 
-based on bojicas:bootstrap-alerts 
+based on bojicas:bootstrap-alerts
+
 
 USAGE
 meteor add jcharvet:bootstrap-alerts
