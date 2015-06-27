@@ -17,8 +17,11 @@ Template.BootstrapAlerts.helpers({
 });
 
 Template.BootstrapAlert.rendered = function () {
-  var currentAlert = this.data;
-  Meteor.setTimeout(function () {
-    Alerts.collection.remove(currentAlert._id);
-  }, 3000);
+  if(this.data) 
+  {
+    var currentAlert = this.data;
+    Meteor.setTimeout(function () {
+      Alerts.collection.remove(currentAlert._id);
+    }, 3000);  
+  }
 };
