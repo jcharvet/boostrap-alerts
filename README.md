@@ -8,14 +8,14 @@ based on bojicas:bootstrap-alerts
     <pre>meteor add jcharvet:bootstrap-alerts</pre>
 
 
-    <pre>Add {{> BootstrapAlerts}} to your template / layout.</pre>
-    <pre>Call alerts with Alerts.set('content', 'type'), where type can take following values:
+    Add {{> BootstrapAlerts}} to your template / layout.
+    
+    Call alerts with Alerts.set('content', 'type'), where type can take following values:
         success
         info
         warning
         danger
-    </pre>    
-
+    
 Note that you can call Alerts.set('content'); (without a second parameter) in order to get an alert of danger type.
 
 <strong>LICENSE</strong>
